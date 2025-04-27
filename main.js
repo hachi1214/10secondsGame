@@ -46,16 +46,16 @@ stopButton.addEventListener("click", () => {
   difference.textContent = `誤差は${differenceResult}秒です!`;
 
   const message = document.createElement("p");
-  if (differenceValue > 2.0) {
-    message.textContent = "もう一回挑戦する？🧐";
-  } else if (differenceValue > 1.0) {
-    message.textContent = "惜しい！👏";
-  } else if (differenceValue > 0.5) {
-    message.textContent = "いい感じ！🥰";
-  } else if (differenceValue > 0.05) {
-    message.textContent = "天才か？！🥺";
-  } else if (differenceValue === 0) {
+  if (differenceValue === 0) {
     message.textContent = "あなたは神です🎉";
+  } else if (differenceValue <= 0.05) {
+    message.textContent = "天才か？！🥺";
+  } else if (differenceValue <= 0.5) {
+    message.textContent = "いい感じ！🥰";
+  } else if (differenceValue <= 1.0) {
+    message.textContent = "惜しい！👏";
+  } else {
+    message.textContent = "もう一回挑戦する？🧐";
   }
 
   text.append(result);
