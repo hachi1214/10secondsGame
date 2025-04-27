@@ -52,7 +52,7 @@ stopButton.addEventListener("click", () => {
     message.textContent = "惜しい！👏";
   } else if (differenceValue > 0.5) {
     message.textContent = "いい感じ！🥰";
-  } else if (differenceValue > 0.1) {
+  } else if (differenceValue > 0.05) {
     message.textContent = "天才か？！🥺";
   } else {
     message.textContent = "あなたは神です🎉";

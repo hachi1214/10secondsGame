@@ -40,8 +40,13 @@ p{
 
 .timer{
   transition: opacity 0.5s ease;
-  font-size: 4rem;
+  font-size: 3rem;
 }
+
+.timer{@media screen and (max-width:768px) {
+    font-size: 2rem;
+  }}
+
 
 .start-button{
   background-color: #288657;
