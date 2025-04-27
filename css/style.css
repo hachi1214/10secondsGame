@@ -26,8 +26,13 @@ p{
   line-height: 1.75;
 }
 
+p{
+@media screen and (max-width:768px) {
+    font-size: 0.6rem;
+  }
+}
 .inner{
-  padding-top: 100px;
+  padding-top: 50px;
   max-width: 1000px;
   width: 80%;
   margin: 0 auto;
