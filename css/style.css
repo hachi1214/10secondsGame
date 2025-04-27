@@ -1,0 +1,49 @@
+html{
+  font-size: 2rem;
+}
+
+button{
+  display: block;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin:  0 auto;
+  border-radius: .5rem;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1{
+  position: relative;
+}
+
+p{
+  text-align: center;
+  line-height: 1.75;
+}
+
+.inner{
+  padding-top: 100px;
+  max-width: 1000px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.visible{
+  display: none;
+}
+
+.timer{
+  transition: opacity 0.5s ease;
+  font-size: 4rem;
+}
+
+.start-button{
+  background-color: #288657;
+}
+
+.stop-button{
+  background-color:#CE3E49 ;
+}
