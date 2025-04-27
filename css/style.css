@@ -1,5 +1,7 @@
 html{
   font-size: 2rem;
+  font-family: "Noto Sans JP", sans-serif;
+
 }
 
 button{
@@ -12,6 +14,7 @@ button{
   bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 h1{
@@ -26,7 +29,7 @@ p{
 .inner{
   padding-top: 100px;
   max-width: 1000px;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
 }
